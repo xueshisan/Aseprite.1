@@ -54,7 +54,7 @@ jobs:
     - name: Compiling
       shell: bash
       run: |
-        cd build &amp;amp; ninja
+        cd build &amp;&amp; ninja
     - uses: actions/upload-artifact@v3
       with:
         name: aseprite
