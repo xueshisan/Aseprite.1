@@ -55,7 +55,7 @@ jobs:
       shell: bash
       run: |
         cd build &amp;amp; ninja
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v2
       with:
         name: aseprite
         path: |
